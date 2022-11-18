@@ -3,6 +3,8 @@
   "resourceVersion": "1.6",
   "name": "GML Platformer",
   "resources": [
+    {"id":{"name":"spr_Walls","path":"sprites/spr_Walls/spr_Walls.yy",},"order":5,},
+    {"id":{"name":"spr_Clouds","path":"sprites/spr_Clouds/spr_Clouds.yy",},"order":6,},
     {"id":{"name":"spr_Samur_Egg_Run","path":"sprites/spr_Samur_Egg_Run/spr_Samur_Egg_Run.yy",},"order":1,},
     {"id":{"name":"obj_Samur_Egg","path":"objects/obj_Samur_Egg/obj_Samur_Egg.yy",},"order":0,},
     {"id":{"name":"spr_Samur_Egg_Jump","path":"sprites/spr_Samur_Egg_Jump/spr_Samur_Egg_Jump.yy",},"order":3,},
@@ -10,6 +12,7 @@
     {"id":{"name":"obj_Invisible_Wall","path":"objects/obj_Invisible_Wall/obj_Invisible_Wall.yy",},"order":1,},
     {"id":{"name":"spr_Samur_Egg_Walk","path":"sprites/spr_Samur_Egg_Walk/spr_Samur_Egg_Walk.yy",},"order":0,},
     {"id":{"name":"spr_Invisible_Wall","path":"sprites/spr_Invisible_Wall/spr_Invisible_Wall.yy",},"order":4,},
+    {"id":{"name":"spr_Grain","path":"sprites/spr_Grain/spr_Grain.yy",},"order":7,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

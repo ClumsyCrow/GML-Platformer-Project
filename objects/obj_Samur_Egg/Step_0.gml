@@ -38,3 +38,14 @@ if (place_meeting(x,y+vsp,obj_Invisible_Wall))
 	vsp = 0;
 }
 y = y + vsp;
+
+//Animation
+if (!place_meeting(x,y+1,obj_Invisible_Wall))
+{
+	sprite_index = spr_Samur_Egg_Jump;
+	image_speed = 0;
+	if (vsp > 0) image_index = 6; else image_index = 3;
+	
+	
+}
+

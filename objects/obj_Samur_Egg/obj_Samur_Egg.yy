@@ -9,7 +9,10 @@
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_Samur_Egg_Idle",
+    "path": "sprites/spr_Samur_Egg_Idle/spr_Samur_Egg_Idle.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
