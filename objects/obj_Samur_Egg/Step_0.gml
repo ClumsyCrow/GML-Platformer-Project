@@ -3,7 +3,7 @@
 //Get player inputs
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
-key_jump = keyboard_check_pressed(vk_space);
+key_jump = keyboard_check_direct(vk_space);
 key_sprint = keyboard_check_direct(vk_shift)
 
 //Calculate movement
@@ -64,11 +64,11 @@ if (hsp != 0) image_xscale = sign(hsp);
 
 //Sprinting
 
-if key_sprint && (key_left or key_right)
+if (key_sprint) && (key_left or key_right)
 {
 	walksp = 7;
 }
 else
 {
-	walksp = 4
+	walksp = 4;
 }
