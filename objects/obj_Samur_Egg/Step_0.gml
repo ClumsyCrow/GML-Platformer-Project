@@ -85,7 +85,12 @@ if (place_meeting(x-1,y,obj_Room_Left))
 	room_goto(rm_left);
 }
 
-if (place_meeting(x+1,y,obj_Room_Center)) or (place_meeting(x-1,y,obj_Room_Center))
+if (place_meeting(x+1,y,obj_Room_Center_Enter_Left))
 {
-	room_goto(rm_center);
+	room_goto(rm_center_enter_left);
+}
+
+if (place_meeting(x+1,y,obj_Room_Center_Enter_Right))
+{
+	room_goto(rm_center_enter_right);
 }

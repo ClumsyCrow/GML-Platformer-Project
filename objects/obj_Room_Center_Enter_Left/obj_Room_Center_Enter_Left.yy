@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Room_Center",
+  "name": "obj_Room_Center_Enter_Left",
   "spriteId": {
     "name": "spr_Room_Center",
     "path": "sprites/spr_Room_Center/spr_Room_Center.yy",
