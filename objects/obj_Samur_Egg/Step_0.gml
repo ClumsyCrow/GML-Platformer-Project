@@ -72,3 +72,20 @@ else
 {
 	walksp = 4;
 }
+
+// Room Travel
+
+if (place_meeting(x+1,y,obj_Room_Right))
+{
+	room_goto(rm_right);
+}
+
+if (place_meeting(x-1,y,obj_Room_Left))
+{
+	room_goto(rm_left);
+}
+
+if (place_meeting(x+1,y,obj_Room_Center)) or (place_meeting(x-1,y,obj_Room_Center))
+{
+	room_goto(rm_center);
+}

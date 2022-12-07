@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Room_Next",
+  "name": "obj_Room_Center",
   "spriteId": {
-    "name": "spr_Invisible_Wall",
-    "path": "sprites/spr_Invisible_Wall/spr_Invisible_Wall.yy",
+    "name": "spr_Room_Center",
+    "path": "sprites/spr_Room_Center/spr_Room_Center.yy",
   },
   "solid": false,
   "visible": false,
@@ -24,9 +24,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_Samur_Egg","path":"objects/obj_Samur_Egg/obj_Samur_Egg.yy",},},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
