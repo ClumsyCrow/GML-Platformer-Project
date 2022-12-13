@@ -4,7 +4,7 @@
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
 key_jump = keyboard_check_direct(vk_space);
-key_sprint = keyboard_check_direct(vk_shift)
+key_sprint = keyboard_check_direct(vk_shift);
 
 //Calculate movement
 var _move = key_right - key_left;
