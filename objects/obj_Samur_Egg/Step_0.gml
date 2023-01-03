@@ -94,3 +94,8 @@ if (place_meeting(x+1,y,obj_Room_Center_Enter_Right))
 {
 	room_goto(rm_center_enter_right);
 }
+
+if (place_meeting(x,y+vsp,obj_Respawn_Plane))
+{
+	room_goto(rm_center)
+}
